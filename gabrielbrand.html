@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/curriculo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        .texto-centralizado{
+            text-align: center;
+        }
+        div{
+            text-align: left;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="texto-centralizado">
+            <img src="./foto.png" width="120" alt="foto curriculo">
+        </div>
+        <h2 class="texto-centralizado">Gabriel Fernando Brand</h2>
+        <p class="texto-centralizado">
+            gabriel.brand@unemat.br<br>
+            (66) 99633-2900<br>
+            23 anos | Brasileiro<br>
+        </p>
+        <hr>
+        <h4>EXPERIÊNCIA PROFISSIONAL</h4>
+        <p>
+            </p><li>MB Contabilidade - Sinop/MT</li>
+            Auxiliar de escritório em geral - Emprego atual desde 07/2019<br>
+            Manutenção de rede/sistemas/computadores, auxílio ao setor de RH, cadastramento de empresas ao sistema, atendimento, arquivação de documentos.<br>
+            <br>
+        <p></p>
+
+        <h4>EXPERIÊNCIAS ACADÊMICAS</h4>
+        <p>
+            </p><li> Médio Completo - concluído em 12/2017</li>
+            Escola Nilza de Oliveria Pipino - Sinop/MT<br>
+            <br>
+            <li>Sistemas de Informação - cursando</li>
+            Universidade do Estado de Mato Grosso - UNEMAT<br>
+        <p></p>
+
+        <h4>CURSOS</h4>
+        <p>
+            </p><li>Introdução à Cibersegurança - Cisco - concluído em 2023</li>
+            <li>Fundamentos em Cibersegurança - Cisco - concluído em 2023</li>
+            <li>Curso de Extensão - Introdução a Redes (CCNAv7: Introduction to Networks) - UNEMAT - concluído em 2023</li>
+            <li>Segurança de Endpoint - Cisco - concluído em 2024</li>
+        <p></p>
+
+        <h4>SOFT E HARD SKILLS</h4>
+        <h5>HARD-SKILLS</h5>
+        <p>
+            </p><li>Conhecimento em Pacote Office, Computadores, Redes e Internet</li>
+            <li>Conhecimento em Teorias e Ferramentas de Segurança</li> 
+            <li>Conhecimento em Design</li>
+            <li>Inglês - Avançado</li>
+        <p></p>
+        <h5>SOFT-SKILLS</h5>
+        <p>
+            </p><li>Resolução de problemas</li>
+            <li>Prestativo</li>
+            <li>Organizado</li>
+            <li>Criativo</li>
+        <p></p>
+    </div>     
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
